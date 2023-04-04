@@ -1,0 +1,20 @@
+/* colors */
+
+/* * { */
+/*   transparent:  #00000000; */
+/*   background:   #44475a; */
+/*   selected:     #6272a4; */
+/*   foreground:   #f8f8f2; */
+/*   border:       #00000000; */
+/*   placeholder:  #f8f8f280; */
+/* } */
+
+
+* {
+    transparent:  #00000000;
+    background:   #EAEAEAD9;
+    foreground:   #000000FF;
+    selected:     #59595940;
+    border:       #00000000;
+    placeholder:  #595959;
+  }

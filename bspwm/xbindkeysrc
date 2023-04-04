@@ -1,0 +1,136 @@
+# Increase volume
+"pamixer --increase 1"
+  XF86AudioRaiseVolume
+
+# Decrease volume
+"pamixer --decrease 1"
+  XF86AudioLowerVolume
+
+# Mute volume
+"pamixer --toggle-mute"
+  XF86AudioMute
+
+# Lock Screen
+"betterlockscreen -l blur"
+  XF86ScreenSaver
+
+# Toggle Rofi Launcher
+"~/.config/rofi/scripts/launcher.sh"
+  Alt + d
+
+"~/.config/rofi/scripts/powermenu.sh"
+  Alt + q
+
+# Open Terminal
+"urxvtc"
+  Alt + Return
+
+
+
+
+#
+# bspwm keybinds
+#
+
+# close
+"bspc node -c"
+  Alt + c
+
+# restart
+"bspc wm -r"   
+  Alt + Shift + r
+
+# window states, and toggle visiblity of unfocused windows 
+"bspc node -t \~fullscreen"
+  Alt + f
+
+"bspc node -t \~floating"
+  Alt + space
+
+"bspc node -t \~tiled"
+  Alt + t
+
+"bspc node -t \~pseudo_tiled"
+  Alt + Shift + t
+
+# container focus
+"bspc node -f west"
+  Alt + h
+  
+"bspc node -f south"
+  Alt + j
+
+"bspc node -f north"
+  Alt + k
+
+"bspc node -f east"
+  Alt + l
+
+"bspc node -f @parent"
+  Alt + p
+
+# container switch
+"bspc node -s west"
+  Alt + Shift + h
+  
+"bspc node -s south"
+  Alt + Shift + j
+
+"bspc node -s north"
+  Alt + Shift + k
+
+"bspc node -s east"
+  Alt + Shift + l
+
+# preselect
+"bspc node -p west"
+  Alt + Control + h
+  
+"bspc node -p south"
+  Alt + Control + j
+
+"bspc node -p north"
+  Alt + Control + k
+
+"bspc node -p east"
+  Alt + Control + l
+
+"bspc node -p cancel"
+  Alt + Control + space 
+
+
+# resize container
+"bspc node -z right +20 0 ; bspc node -z left -20 0" # Expand X
+  Mod4 + l
+
+"bspc node -z right -20 0 ; bspc node -z left +20 0" # Shrink X
+  Mod4 + h
+
+"bspc node -z top 0 -20 ; bspc node -z bottom 0 +20" # Expand Y
+  Mod4 + k
+
+"bspc node -z top 0 +20 ; bspc node -z bottom 0 -20" # Shrink Y
+  Mod4 + j
+
+
+
+
+# workspce navigation
+"bspc desktop -f 1"
+  Alt + 1
+"bspc desktop -f 2"
+  Alt + 2
+"bspc desktop -f 3"
+  Alt + 3
+"bspc desktop -f 4"
+  Alt + 4
+
+# send container to workspace
+"bspc node -d 1"
+  Alt + Shift + 1
+"bspc node -d 2"
+  Alt + Shift + 2
+"bspc node -d 3"
+  Alt + Shift + 3
+"bspc node -d 4"
+  Alt + Shift + 4
