@@ -96,7 +96,7 @@
   Alt + Control + l
 
 "bspc node -p cancel"
-  Alt + Control + space 
+  Alt + bracketleft 
 
 
 # resize container
