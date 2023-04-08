@@ -4,10 +4,10 @@
 
 local git_info='$(git_prompt_info)'
 
-PROMPT="${FG[001]}┌─[${FG[214]}%B%n%b%{$reset_color%}${FG[070]}@${FG[037]}%B$HOST%b%{$reset_color%}${FG[001]}]─[%B${FG[004]}%~%b${FG[001]}]${git_info}${FG[001]}
-${FG[001]}└─╼%{$reset_color%} "
+PROMPT="%{$fg[red]%}┌─[%{$fg[yellow]%}%B%n%b%{$fg[green]%}@%{$fg[cyan]%}%B$HOST%b%{$fg[red]%}]─[%B%{$fg[blue]%}%~%b%{$fg[red]%}]%{$git_info%}%{$fg[red]%}"
+PROMPT+=$'\n'
+PROMPT+="%{$fg[red]%}└─╼%{$reset_color%} "
 
-ZSH_THEME_GIT_PROMPT_PREFIX="${FG[001]}─[${FG[002]}%B"
-ZSH_THEME_GIT_PROMPT_SUFFIX="%b${FG[001]}]"
-ZSH_THEME_GIT_PROMPT_DIRTY="%b${FG[001]}]─[${FG[002]}${FG[214]}"
-ZSH_THEME_GIT_PROMPT_CLEAN="${FG[040]}"
+ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[red]%}─[%{$fg[green]%}%B"
+ZSH_THEME_GIT_PROMPT_SUFFIX="%b%{$fg[red]%}]"
+ZSH_THEME_GIT_PROMPT_DIRTY="%b%{$fg[red]%}]─[%{$fg[yellow]%}"
