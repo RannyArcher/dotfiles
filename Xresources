@@ -39,6 +39,7 @@
 !! URxvt Appearance
 URxvt.font: xft:FantasqueSansMono Nerd Font Mono:size=14
 URxvt.letterSpace: 1
+URxvt.geometry: 400x400
 URxvt.lineSpace: 0
 URxvt.internalBorder: 5
 URxvt.cursorBlink: false
