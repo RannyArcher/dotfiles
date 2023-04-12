@@ -9,4 +9,7 @@ if status is-interactive
   set -g fish_cursor_insert line
   set -g fish_cursor_default block
   set -g fish_cursor_visual underscore
+
+  # replace double exclamative with last command
+  _dblExclamations2lastcmd   
 end
