@@ -1,0 +1,5 @@
+### PLUGINS ###
+# initialize plugins
+for plugin in ~/.config/zsh/plugins/**/*.plugin.zsh; do
+  source $plugin
+done

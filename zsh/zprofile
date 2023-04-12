@@ -1,0 +1,3 @@
+### VARIABLES ###
+export HISTSIZE=100
+export SAVEHIST=1000
