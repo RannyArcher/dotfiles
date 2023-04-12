@@ -45,10 +45,6 @@ function fish_prompt
     set_color -o $border_color
     echo -n ']'
 
-    set -g fish_cursor_insert line
-    set -g fish_cursor_default block
-    set -g fish_cursor_visual underscore
-
     # disable default vi mode indicator
     function fish_mode_prompt
     end
