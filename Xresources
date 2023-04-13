@@ -81,5 +81,5 @@ URxvt.underlineURLs: true
 URxvt.url-select.underline: true
 URxvt.urlButton: 1
 
-Xcursor.theme: Capitaine Cursors
+Xcursor.theme: Volantes-Dark
 Xcursor.size: 32
