@@ -27,7 +27,7 @@ function fish_prompt
     echo -n '['
 
     if functions -q fish_is_root_user; and fish_is_root_user
-        set_color -o $border_color
+        set_color -o red
     else
         set_color -o yellow
     end
