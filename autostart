@@ -1,0 +1,33 @@
+#!/bin/bash
+
+
+exec_always=(
+  "xbindkeys -f $HOME/.config/bspwm/xbindkeysrc"
+  "xrdb -merge $HOME/.config/Xresources"
+)
+
+
+exec_once=(
+  "picom -b"
+  "xsetroot -cursor_name left_ptr"
+  "urxvtd"
+  "xautolock -time 3 -locker \"betterlockscreen -l blur\""
+  "nitrogen --restore"
+)
+
+
+
+
+
+for cmd in "${exec_always[@]}"; do
+  cmd_prog=$(echo $cmd | cut -d ' ' -f 1) 
+  pgrep -x $cmd_prog > /dev/null && killall $cmd_prog
+  $cmd &
+done
+
+
+for cmd in "${exec_once[@]}"; do
+  cmd_prog=$(echo $cmd | cut -d ' ' -f 1)
+  pgrep -x $cmd_prog > /dev/null || $cmd &
+done
+
