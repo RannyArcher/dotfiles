@@ -1,6 +1,6 @@
 ##### AUTOSTART #####
 exec --no-startup-id ~/.config/i3/show-workspaces.sh
-exec --no-startup-id ~/.autostart
+exec --no-startup-id $HOME/.config/autostart
 exec --no-startup-id xborders --config .config/xborders/config.json
 exec_always --no-startup-id killall polybar ; polybar -r -c ~/.config/i3/polybar.ini
 #exec --no-startup-id nm-applet

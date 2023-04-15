@@ -1,7 +1,7 @@
 #! /bin/sh
 
-pgrep -x polybar > /dev/null && killall polybar ; polybar -r
-~/.autostart 
+pgrep -x polybar > /dev/null && killall polybar ; polybar -q -r &
+$HOME/.config/autostart
 
 bspc monitor -d 1 2 3 4
 bspc config focus_follows_pointer true
