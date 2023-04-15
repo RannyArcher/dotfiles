@@ -15,3 +15,10 @@ if status is-interactive
   bind -M insert l 'commandline -P; and commandline -f forward-char; or commandline -i l'
 
 end
+
+# Start X at login
+if status is-login
+    if test -z "$DISPLAY" -a "$XDG_VTNR" = 1;
+        exec startx 2> /dev/null
+    end
+end
