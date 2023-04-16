@@ -26,7 +26,7 @@ case $chosen in
 			systemctl reboot
         ;;
     $lock)
-			betterlockscreen -l blur
+			sleep 0.1 ; lockscreen
         ;;
     $suspend)
 			mpc -q pause

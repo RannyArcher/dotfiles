@@ -11,7 +11,7 @@ exec_once=(
   "picom -b"
   "xsetroot -cursor_name left_ptr"
   "urxvtd"
-  "xautolock -time 3 -locker \"betterlockscreen -l blur\""
+  "xautolock -time 1 -locker lockscreen"
   "nitrogen --restore"
 )
 

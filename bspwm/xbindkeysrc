@@ -11,7 +11,7 @@
   XF86AudioMute
 
 # Lock Screen
-"betterlockscreen -l blur"
+"lockscreen"
   XF86ScreenSaver
 
 # Toggle Rofi Launcher
