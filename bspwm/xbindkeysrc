@@ -1,3 +1,11 @@
+# Increse brightness
+"xbacklight -inc 1"
+  XF86MonBrightnessUp
+
+# Decrease brightness
+"xbacklight -dec 1"
+  XF86MonBrightnessDown
+
 # Increase volume
 "pamixer --increase 1"
   XF86AudioRaiseVolume
