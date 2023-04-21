@@ -23,7 +23,7 @@ configuration {
 * {
     /* Resolution : 1920x1080 */
     mainbox-spacing:             50px;
-    mainbox-margin:              25px;
+    mainbox-margin:              200px;
     message-margin:              0px 300px;
     message-padding:             12px;
     message-border-radius:       12px;
@@ -31,11 +31,11 @@ configuration {
     element-padding:             35px 0px;
     element-border-radius:       10px;
 
-    prompt-font:                 "FantasqueSansMono Nerd Font Bold 48";
+    prompt-font:                 "FantasqueSansMono Nerd Font Bold 30";
     textbox-font:                "FantasqueSansMono Nerd Font 12";
     element-text-font:           "FantasqueSansMono Nerd Font 20";
 
-    background-window:           black;
+    background-window:           black/95%;
     background-normal:           white/5%;
     background-selected:         white/15%;
     foreground-normal:           white;
