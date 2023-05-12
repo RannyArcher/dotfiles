@@ -15,7 +15,7 @@ configuration {
 }
 
 * {
-    font: "FantasqueSansMono Nerd Font 13";
+    font: "FantasqueSansM Nerd Font 13";
 
     bg0:  #000000C3;
     bg1:  #363636;

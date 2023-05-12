@@ -37,7 +37,7 @@
 *color15 			: #F8F8F8
 
 !! URxvt Appearance
-URxvt.font: xft:FantasqueSansMono Nerd Font Mono:size=14
+URxvt.font: xft:FantasqueSansM Nerd Font Mono:size=15
 URxvt.letterSpace: 1
 URxvt.geometry: 50x35 
 URxvt.lineSpace: 0

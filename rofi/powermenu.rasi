@@ -31,9 +31,9 @@ configuration {
     element-padding:             35px 0px;
     element-border-radius:       10px;
 
-    prompt-font:                 "FantasqueSansMono Nerd Font Bold 30";
-    textbox-font:                "FantasqueSansMono Nerd Font 12";
-    element-text-font:           "FantasqueSansMono Nerd Font 20";
+    prompt-font:                 "FantasqueSansM Nerd Font Bold 30";
+    textbox-font:                "FantasqueSansM Nerd Font 12";
+    element-text-font:           "FantasqueSansM Nerd Font 20";
 
     background-window:           black/95%;
     background-normal:           white/5%;

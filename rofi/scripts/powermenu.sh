@@ -9,7 +9,7 @@ shutdown=""
 reboot=""
 lock=""
 suspend="󰒲"
-logout=""
+logout="󰍃"
 hibernate=""
 
 # Variable passed to rofi
