@@ -2,7 +2,7 @@
 
 
 exec_always=(
-  "xbindkeys -f $HOME/.config/bspwm/xbindkeysrc"
+  "xbindkeys -f $HOME/.config/xbindkeysrc"
   "xrdb -merge $HOME/.config/Xresources"
 )
 
