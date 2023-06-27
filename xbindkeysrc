@@ -7,16 +7,24 @@
   XF86MonBrightnessDown
 
 # Increase volume
-"pamixer --increase 1"
+"~/.config/dunst/volumeNotification.sh up"
   XF86AudioRaiseVolume
 
 # Decrease volume
-"pamixer --decrease 1"
+"~/.config/dunst/volumeNotification.sh down"
   XF86AudioLowerVolume
 
 # Mute volume
-"pamixer --toggle-mute"
+"~/.config/dunst/volumeNotification.sh mute"
   XF86AudioMute
+
+# Close top level notification
+"dunstctl close"
+  Control + space
+
+# Close all notifications
+"dunstctl close-all"
+  Control + Shift + space
 
 # Lock Screen
 "lockscreen"
