@@ -6,11 +6,21 @@
 
 config_version: 2
 settings:
-  editor.command:
-    global:
-    - nvim
-    - '{file}'
-    - -c
-    - normal {line}G{column0}l
-  scrolling.smooth:
+  auto_save.session:
     global: true
+  colors.webpage.preferred_color_scheme:
+    global: dark
+  fonts.default_size:
+    global: 16pt
+  search.wrap:
+    global: true
+  statusbar.position:
+    global: top
+  statusbar.show:
+    global: always
+  tabs.position:
+    global: bottom
+  tabs.show:
+    global: switching
+  tabs.wrap:
+    global: false
