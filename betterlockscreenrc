@@ -1,7 +1,7 @@
 # default options
 display_on=0
 span_image=false
-lock_timeout=30
+lock_timeout=120
 # fx_list=(blur)
 # blur_level=1
 wallpaper_cmd="feh --bg-fill"
