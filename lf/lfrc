@@ -3,9 +3,10 @@ set hidden true
 set ignorecase true
 set icons true
 set drawbox true
-set previewer ~/.config/lf/preview
-set preview true
-set cleaner ~/.config/lf/cleaner
+set previewer ctpv
+set cleaner ctpvclear
+&ctpv -s $id
+&ctpvquit $id
 set ratios 1:2:3
 
 # Custom Functions
