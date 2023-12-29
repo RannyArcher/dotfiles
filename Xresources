@@ -37,11 +37,11 @@
 *color15 			: #F8F8F8
 
 !! URxvt Appearance
-URxvt.font: xft:FantasqueSansM Nerd Font Mono:size=15
+URxvt.font: xft:FantasqueSansM Nerd Font Mono:style=Regular:size=18
 URxvt.letterSpace: 1
 URxvt.geometry: 50x35 
 URxvt.lineSpace: 0
-URxvt.internalBorder: 5
+URxvt.internalBorder: 0
 URxvt.cursorBlink: false
 URxvt.cursorUnderline: false
 URxvt.saveline: 1000
@@ -56,8 +56,8 @@ URxvt.intensityStyles: false
 
 !! Common Keybinds for Navigations
 ! Scrolling
-URxvt.keysym.Control-k: command:\033]720;1\007
-URxvt.keysym.Control-j: command:\033]721;1\007
+URxvt.keysym.Control-K: command:\033]720;1\007
+URxvt.keysym.Control-J: command:\033]721;1\007
 
 ! Common Keybinds for Font resize
 URxvt.resize-font.step:   1
